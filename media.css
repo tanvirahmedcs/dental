@@ -1,0 +1,114 @@
+/* General Styles (for all devices) */
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .top-heading {
+        text-align: center;
+    }
+    
+    .top-heading-info {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .navbar {
+        text-align: center;
+    }
+
+    .banner h1 {
+        font-size: 1.5rem;
+    }
+
+    .banner p {
+        font-size: 1rem;
+    }
+
+    .doctor-welcome {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .doctor-welcome img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-item {
+        text-align: center;
+    }
+
+    .pricing-box {
+        text-align: center;
+    }
+
+    .footer {
+        text-align: center;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 300px;
+    }
+}
+
+/* Tablet Styles */
+@media (min-width: 769px) and (max-width: 1024px) {
+    .banner h1 {
+        font-size: 2rem;
+    }
+
+    .doctor-welcome {
+        flex-direction: row;
+    }
+
+    .doctor-welcome img {
+        width: 100%;
+        height: auto;
+    }
+
+    .service-item {
+        text-align: center;
+    }
+
+    .pricing-box {
+        text-align: center;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 400px;
+    }
+}
+
+/* Desktop Styles */
+@media (min-width: 1025px) {
+    .banner h1 {
+        font-size: 3rem;
+    }
+
+    .doctor-welcome {
+        flex-direction: row;
+    }
+
+    .doctor-welcome img {
+        width: 80%;
+        height: auto;
+    }
+
+    .service-item {
+        text-align: left;
+    }
+
+    .pricing-box {
+        text-align: left;
+    }
+
+    .map iframe {
+        width: 100%;
+        height: 450px;
+    }
+}
